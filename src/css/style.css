@@ -1,0 +1,45 @@
+*{
+    font-family: system-ui;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    margin: 0;
+    padding: 0;
+
+}
+
+main {
+    padding-top: 4.5em;
+    height: calc( 100% - 4.5em );
+    background-color: antiquewhite;
+}
+
+
+.search-bar-container{
+    width: calc(100% - 2em);
+    padding: 0 1em;
+    display: flex;
+    gap: 1em;
+}
+
+.search-bar-container > input{
+    width: 100%;
+    border: 0;
+    padding: 1em;
+    border-radius: 100vh;
+}
+
+.base-button{
+    padding: 1em;
+    background-color: orange;
+    color: aliceblue;
+    font-weight: 600;
+    border: 0;
+    border-radius: 1em;
+}
+
+.base-button:hover{
+    background-color: rgb(205, 133, 0);
+}

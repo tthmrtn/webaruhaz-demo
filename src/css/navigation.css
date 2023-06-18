@@ -1,0 +1,20 @@
+.navigation-container{
+    position: absolute;
+    width: calc(100% - .5em);
+    background-color: aqua;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 3em;
+    padding: .25em;
+    gap: .2em;
+}
+
+.title{
+    position: absolute;
+    left: .2em;
+    padding: 0;
+    margin: 0;
+    font-size: 32px;
+    cursor: pointer;
+}
